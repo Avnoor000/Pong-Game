@@ -11,6 +11,7 @@ Colors and Fonts:
 
 Colors like black, white, and blue are defined in RGB format.
 A font (freesansbold.ttf) is used for rendering scores.
+
 2. Game Elements:
 Paddles:
 
@@ -24,6 +25,7 @@ Scores (scoreA and scoreB) track points for each player. Each score is displayed
 Middle Line:
 
 A dashed vertical line is drawn at the center of the game screen for visual clarity.
+
 3. Game Mechanics:
 Ball Movement:
 
@@ -45,6 +47,7 @@ Score Updates:
 
 Player B scores when the ball crosses the left edge.
 Player A scores when the ball crosses the right edge.
+
 4. Rendering and Updates:
 Drawing Elements:
 
@@ -54,6 +57,7 @@ Frame Updates:
 
 The game state is updated every 10 milliseconds (pygame.time.delay(10)).
 All graphical changes are updated using pygame.display.update().
+
 5. Termination:
 The game runs in a loop until the user closes the window (pygame.QUIT).
 Key Features:
